@@ -8,7 +8,7 @@ sudo \
 nano \
 wget \
 curl \
-git
+git 
 RUN useradd -G sudo -m -d /home/Heddabk -s /bin/bash -p "$(openssl passwd -1 1234)" Heddabk
 USER Heddabk
 WORKDIR /home/Heddabk
